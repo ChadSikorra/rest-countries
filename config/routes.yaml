@@ -1,0 +1,6 @@
+default:
+  path:         /
+  controller:   Symfony\Bundle\FrameworkBundle\Controller\TemplateController
+  defaults:
+    template: default.html.twig
+  methods: GET
